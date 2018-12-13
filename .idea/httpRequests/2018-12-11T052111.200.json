@@ -1,0 +1,13 @@
+{
+  "name": "ifTuriG",
+  "cluster_name": "elasticsearch",
+  "cluster_uuid": "XsjIYnieTRyWFMOc09TPEQ",
+  "version": {
+    "number": "5.6.12",
+    "build_hash": "cfe3d9f",
+    "build_date": "2018-09-10T20:12:43.732Z",
+    "build_snapshot": false,
+    "lucene_version": "6.6.1"
+  },
+  "tagline": "You Know, for Search"
+}

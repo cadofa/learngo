@@ -1,0 +1,42 @@
+{
+  "took": 72,
+  "timed_out": false,
+  "_shards": {
+    "total": 5,
+    "successful": 5,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": 1,
+    "max_score": 1.0,
+    "hits": [
+      {
+        "_index": "test1",
+        "_type": "zhenai",
+        "_id": "108906739",
+        "_score": 1.0,
+        "_source": {
+          "Id": "108906739",
+          "Url": "http://album.zhenai.com/u/108906739",
+          "Type": "zhenai",
+          "Payload": {
+            "Age": 34,
+            "Car": "未购车",
+            "Education": "大学本科",
+            "Gender": "女",
+            "Height": 162,
+            "Hokou": "山东菏泽",
+            "House": "已够房",
+            "Income": "3001-5000元",
+            "Marriage": "离异",
+            "Name": "安静的雪",
+            "Occupation": "人事/行政",
+            "Weight": 57,
+            "Xinzuo": "牧羊座"
+          }
+        }
+      }
+    ]
+  }
+}

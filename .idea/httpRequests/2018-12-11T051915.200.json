@@ -1,0 +1,252 @@
+{
+  "dating_profile": {
+    "aliases": {},
+    "mappings": {
+      "zhenai": {
+        "properties": {
+          "Age": {
+            "type": "long"
+          },
+          "Car": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Education": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Gender": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Height": {
+            "type": "long"
+          },
+          "Hokou": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "House": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Id": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Income": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Marriage": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Name": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Occupation": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Payload": {
+            "properties": {
+              "Age": {
+                "type": "long"
+              },
+              "Car": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "Education": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "Gender": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "Height": {
+                "type": "long"
+              },
+              "Hokou": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "House": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "Income": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "Marriage": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "Name": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "Occupation": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              },
+              "Weight": {
+                "type": "long"
+              },
+              "Xinzuo": {
+                "type": "text",
+                "fields": {
+                  "keyword": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                  }
+                }
+              }
+            }
+          },
+          "Type": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Url": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          },
+          "Weight": {
+            "type": "long"
+          },
+          "Xinzuo": {
+            "type": "text",
+            "fields": {
+              "keyword": {
+                "type": "keyword",
+                "ignore_above": 256
+              }
+            }
+          }
+        }
+      }
+    },
+    "settings": {
+      "index": {
+        "creation_date": "1544496829312",
+        "number_of_shards": "5",
+        "number_of_replicas": "1",
+        "uuid": "DXZu7AY1QKSBxDcgSO08VQ",
+        "version": {
+          "created": "5061299"
+        },
+        "provided_name": "dating_profile"
+      }
+    }
+  }
+}
