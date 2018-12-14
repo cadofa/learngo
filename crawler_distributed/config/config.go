@@ -12,8 +12,4 @@ const (
 	CrawlServiceRpc = "CrawlService.Process"
 
 	Qps = 20
-
-	ItemSaverPort = 1234
-
-	WorkerPort0 = 9000
 )

@@ -5,10 +5,21 @@ import (
 	"imooc.com/ccmouse/learngo/crawler_distributed/rpcsupport"
 	"imooc.com/ccmouse/learngo/crawler_distributed/persist"
 	"log"
+	"fmt"
+	"imooc.com/ccmouse/learngo/crawler_distributed/config"
+	"flag"
 )
 
+var port = flag.Int("port", 0,
+	"the port for me to listen on")
+
 func main(){
-	log.Fatal(serveRpc(":1234", "dating_profile"))
+	flag.Parse()
+	if *port == 0{
+		fmt.Println("must specify a port")
+		return
+	}
+	log.Fatal(serveRpc(fmt.Sprintf(":%d", *port), config.ElasticIndex))
 }
 
 func serveRpc(host, index string) error{
