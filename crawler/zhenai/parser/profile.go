@@ -5,6 +5,7 @@ import (
 	"imooc.com/ccmouse/learngo/crawler/engine"
 	"strconv"
 	"imooc.com/ccmouse/learngo/crawler/model"
+	"imooc.com/ccmouse/learngo/crawler_distributed/config"
 )
 
 var ageRe    = regexp.MustCompile(`<td><span class="label">年龄：</span>([\d]+)岁</td>`)
@@ -95,7 +96,7 @@ func (p *ProfileParser) Parse(contents []byte, url string) engine.ParseResult {
 }
 
 func (p *ProfileParser) Serialize() (name string, args interface{}) {
-	return "ProfileParser",  p.userName
+	return config.ParseProfile, p.userName
 }
 
 func NewProfileParser(name string) *ProfileParser{
